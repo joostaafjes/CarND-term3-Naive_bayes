@@ -3,7 +3,7 @@
 
 #include <string>
 #include <vector>
-#include "Dense"
+#include "Eigen/Dense"
 
 using Eigen::ArrayXd;
 using std::string;

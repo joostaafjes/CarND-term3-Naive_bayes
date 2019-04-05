@@ -1,11 +1,16 @@
 #ifndef CLASSIFIER_H
 #define CLASSIFIER_H
 
+#include <iostream>
 #include <string>
 #include <vector>
 #include "Eigen/Dense"
 
+#include "feature.h"
+
 using Eigen::ArrayXd;
+using std::cout;
+using std::endl;
 using std::string;
 using std::vector;
 

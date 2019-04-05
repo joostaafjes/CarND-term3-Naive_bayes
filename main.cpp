@@ -42,7 +42,7 @@ int main() {
   }
 
   float fraction_correct = float(score) / Y_test.size();
-  cout << "You got " << (100*fraction_correct) << " correct" << endl;
+  cout << "You got " << (100*fraction_correct) << " % correct" << endl;
 
   return 0;
 }
@@ -70,7 +70,7 @@ vector<vector<double> > Load_State(string file_name)
   return state_out;
 }
 
-// Load labels from .txt file
+// Load features from .txt file
 vector<string> Load_Label(string file_name) {
   ifstream in_label_(file_name.c_str(), ifstream::in);
   vector< string > label_out;

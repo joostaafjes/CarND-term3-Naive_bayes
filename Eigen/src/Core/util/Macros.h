@@ -359,7 +359,7 @@
 #define EIGEN_DEFAULT_DENSE_INDEX_TYPE std::ptrdiff_t
 #endif
 
-// A Clang feature extension to determine compiler features.
+// A Clang Feature extension to determine compiler features.
 // We use it to determine 'cxx_rvalue_references'
 #ifndef __has_feature
 # define __has_feature(x) 0
